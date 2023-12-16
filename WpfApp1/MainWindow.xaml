@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="New Label" FontSize="20"/>
+            <Label Content="One More Label" FontSize="20"/>
+            <CheckBox Content="CheckBox" FontSize="20"/>
+        </StackPanel>
         
     </Grid>
 </Window>
